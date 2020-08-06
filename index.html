@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>IOT Donation Page</title>
+    <style>
+        table, th, td {
+            border: 2px solid black;
+        }
+        th, td {
+            padding: 10px;
+        }
+        table.center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    </head>
+
+    <body style="background-color:lightgreen;">
+
+        <h1 style="color:purple;font-family:verdana;text-align:left">IoT Donation</h1>
+        <table class="center">
+            <tr>
+                <th>Text</th>
+            </tr>
+            <tr>
+                <td><form>
+                        <label for="fname">이름</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">후원금액</label><br>
+                        <input type="text" id="lname" name="lname">
+                    </form>
+                    <form>
+                        <label for="fname">후원메시지</label><br>
+                        <input style="height:100px; type="text" id="fname" name="fname" size="50"><br>
+                    </form>
+                    <p style="text-align:left;"><a> ABC</a></p>
+                    <form>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Heater</label><br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Discoball</label><br>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Money Gun</label><br>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Radio Button</label>
+                    </form>
+                    <form >
+                        <input type="submit" value="후원하기">
+        </form></td>
+            </tr>
+        </table>
+
+
+    </body>
+</html>
